@@ -92,7 +92,7 @@ function process(value)
 //function to set timer
 function startTimer() 
 {
-    var time_in_minutes = 1;
+    var time_in_minutes = 0.50;
     var current_time = Date.parse(new Date());
     var deadline = new Date(current_time + time_in_minutes*60*1000);
     function time_remaining(endtime){
